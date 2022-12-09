@@ -90,7 +90,7 @@
                 <v-row>
                 <v-col cols="12" sm="4">
                     <v-card class="mw-auto" max-width="600" height="">
-                    <v-img src="i10.jpg" height="200px" cover></v-img>
+                    <v-img src="../assets/img/project-img1.png" height="200px" cover></v-img>
                     <v-card-title>We Provide you the best</v-card-title>
                     <v-card-subtitle>
                         By AAE IdeaPro
@@ -102,7 +102,7 @@
                 </v-col>
                 <v-col cols="12" sm="4">
                     <v-card class="mw-auto" max-width="600" height="">
-                    <v-img src="i11.jpg" height="200px" cover></v-img>
+                    <v-img src="../assets/img/project-img2.png" height="200px" cover></v-img>
                     <v-card-title>We Provide you the best</v-card-title>
                     <v-card-subtitle>
                         By AAE IdeaPro
@@ -114,7 +114,7 @@
                 </v-col>
                 <v-col cols="12" sm="4">
                     <v-card class="mw-auto" max-width="600" height="">
-                    <v-img src="i12.jpg" height="200px" cover></v-img>
+                    <v-img src="../assets/img/project-img3.png" height="200px" cover></v-img>
                     <v-card-title>We Provide you the best</v-card-title>
                     <v-card-subtitle>
                         By AAE IdeaPro
@@ -224,7 +224,6 @@ import { defineComponent } from 'vue';
 import NavBar from '@/components/NavBar.vue';
 import FooterView from '@/components/FooterView.vue';
 
-
 export default defineComponent({
     name: 'HomeView',
 
@@ -238,7 +237,7 @@ export default defineComponent({
                 {img: "1.png"}
             ],
             items: [
-                { img: "i3.jpg",},
+                { img: "i10.jpg"},
                 { img: "i4.jpg", },
                 { img: "i5.jpg", },
                 { img: "i6.jpg", },
@@ -251,7 +250,7 @@ export default defineComponent({
     components: {
         NavBar,
         FooterView,
-
+        
     },
 
     // data() {
